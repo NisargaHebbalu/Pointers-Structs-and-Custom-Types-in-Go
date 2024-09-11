@@ -31,7 +31,7 @@ func (b bill) format() string {
 		total += v
 	}
 
-	fs += fmt.Sprintf("%-25v.....%v", "total:", total)
+	fs += fmt.Sprintf("%-25v.....%v", "total:", total) //%-25v adds spaces to the right, %25v (pos) adds spaces to the left
 
 	return fs
 
